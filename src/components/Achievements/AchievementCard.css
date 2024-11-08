@@ -1,0 +1,33 @@
+.achievement-card-view {
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .achievement-card-view:hover {
+    transform: scale(1.05);
+  }
+  
+  .achievement-card-view img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .achievement-card-view .card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #c084f5;
+  }
+  
+  .achievement-card-view .card-text {
+    font-size: 1em;
+    padding: 10px;
+    color: #aaa;
+  }
+  
